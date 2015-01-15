@@ -11,9 +11,15 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
   $scope.init = function () {
   	$scope.tweets = [];
 
-		PubNub.init({ subscribe_key: pubnubConfig.subscribe_key });
-	 	PubNub.ngSubscribe({ channel: pubnubConfig.channel })
-	  
+		PubNub.init({
+      subscribe_key: pubnubConfig.subscribe_key,
+      ssl: location.protocol == 'https:'
+    });
+
+	 	PubNub.ngSubscribe({
+      channel: pubnubConfig.channel
+    });
+
 	  $rootScope.$on(PubNub.ngMsgEv(pubnubConfig.channel), function(event, payload) {
       
       // Add tweet to this hud
