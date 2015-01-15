@@ -7,31 +7,31 @@
   "success_url": "https://apps.twitter.com/",
   "env": {
 	  "TWITTER_CONSUMER_KEY": {
-	    "description": "Twitter Consumer Key generated at apps.twitter.com",
+	    "description": "Twitter Consumer Key generated at apps.twitter.com (required)",
 	    "required": true
 	  },
 	  "TWITTER_CONSUMER_SECRET": {
-	    "description": "Twitter Consumer Secret generated at apps.twitter.com",
+	    "description": "Twitter Consumer Secret generated at apps.twitter.com (required)",
 	    "required": true
 	  },
 	  "TWITTER_ACCESS_TOKEN": {
-	    "description": "Twitter Access Token generated at apps.twitter.com",
+	    "description": "Twitter Access Token generated at apps.twitter.com (required)",
 	    "required": true
 	  },
 	  "TWITTER_TOKEN_SECRET": {
-	    "description": "Twitter Token Secret generated at apps.twitter.com",
+	    "description": "Twitter Token Secret generated at apps.twitter.com (required)",
 	    "required": true
 	  },
 	  "PUBNUB_PUBLISH_KEY": {
-	    "description": "PubNub Publish Key generated at admin.pubnub.com",
+	    "description": "PubNub Publish Key generated at admin.pubnub.com (required)",
 	    "required": true
 	  },
 	  "PUBNUB_SUBSCRIBE_KEY": {
-	    "description": "PubNub Subscribe Key generated at admin.pubnub.com",
+	    "description": "PubNub Subscribe Key generated at admin.pubnub.com (required)",
 	    "required": true
 	  },
 	  "GA_TRACKING_ID": {
-	    "description": "Google Analytics tracking ID",
+	    "description": "Google Analytics tracking ID (optional)",
 	    "required": false
 	  }
 	}
