@@ -19,9 +19,9 @@ TweetBeacon = function(tweet) {
 
   if (tweet.sentiment.score < 0) {
   this.color = 0xFF0000;
-  } //-> DELETE
+  } /*-> DELETE
   if (tweet.sentiment.score > 1) {
-    this.color = 0x0066FF;} //<- DELETE
+    this.color = 0x0066FF;} //<- DELETE*/
   else if (tweet.sentiment.score > 0) {
     this.color = 0xDDDD00;
   }
