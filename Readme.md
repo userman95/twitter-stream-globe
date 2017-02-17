@@ -33,7 +33,7 @@ var pubnub = TweetPublisher.pubnub = Pubnub({
 	subscribe_key: nconf.get('PUBNUB_SUBSCRIBE_KEY')
 });
 ```
-Συγκεκριμένα για την πλατφρμα PubNub, για να βρείτε τις τιμές των 2 παραπάνω μεταβλητών ακολουθήστε τα εξής βήματα:
+Συγκεκριμένα για την πλατφόρμα PubNub, για να βρείτε τις τιμές των 2 παραπάνω μεταβλητών ακολουθήστε τα εξής βήματα:
 **Βήμα 1**
 ![pubnub1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe09.png)
 **Βήμα 2**
