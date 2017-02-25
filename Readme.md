@@ -22,9 +22,12 @@
 - [x] Δημιουργήστε ένα νέο κλαδί (**branch**) στο αντίγραφο του αποθετηρίου στον λογαριασμό σας.
 - [x] Δημιουργήστε μια νέα εφαρμογή στο [twitter](https://apps.twitter.com/).
 - [x] Θα χρειαστείτε να αξιοποιήσετε την πλατφόρμα [PubNub](https://admin.pubnub.com/) (είναι δωρεάν).
+- [x] Μπείτε στον λογαριασμό σας στο [Heroku](https://www.heroku.com/). Η πλατφόρμα **[Heroku](https://www.heroku.com/)**, η οποία συνεργάζεται και με το Github [https://blog.heroku.com/heroku_github_integration](https://blog.heroku.com/heroku_github_integration) προσφέρει δωρεάν υπηρεσίες web hosting σε ssl.
+- [x] Δημιουργήστε μια νέα εφαρμογή.
+![herokuapps](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe02.png)
 - [x] Στο αποθετήριο που έχετε αντιγράψει στον λογαριασμό σας (βλ. προηγούμενα βήματα), οι μεταβλητές **TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET**, **TWITTER_ACCESS_TOKEN** και **TWITTER_TOKEN_SECRET** θα πρέπει να αντικατασταθούν με τις τιμές των αντίστοιχων μεταβλητών της εφαρμογής σας στο **twitter** που δημιουργήσατε στο προηγούμενο βήμα και οι μεταβλητές **PUBNUB_PUBLISH_KEY** και **PUBNUB_SUBSCRIBE_KEY** με τις αντίστοιχες τιμές από το **PubNub**.
 
-**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της εφαρμογής στο **Heroku** (**Settings** -> **Config Variables**).
+**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της σας εφαρμογής στο **Heroku** (**Settings** -> **Config Variables**).
 
 **Βήμα 1**
 ![herokuConfigp1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe08.png)
@@ -32,17 +35,15 @@
 ![herokuConfigp2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe081.jpg)
 
 
-Συγκεκριμένα για την πλατφόρμα PubNub, για να βρείτε τις τιμές των 2 παραπάνω μεταβλητών ακολουθήστε τα εξής βήματα:
+Συγκεκριμένα για την πλατφόρμα PubNub, για να βρείτε τις τιμές των 2 μεταβλητών ακολουθήστε τα εξής βήματα:
 **Βήμα 1**
 ![pubnub1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe09.png)
 **Βήμα 2**
 ![pubnub2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe10.png)
-- [x] Μπείτε στον λογαριασμό σας στο [Heroku](https://www.heroku.com/). Η πλατφόρμα **[Heroku](https://www.heroku.com/)**, η οποία συνεργάζεται και με το Github [https://blog.heroku.com/heroku_github_integration](https://blog.heroku.com/heroku_github_integration) προσφέρει δωρεάν υπηρεσίες web hosting σε ssl.
-- [x] Δημιουργήστε μια νέα εφαρμογή.
-![herokuapps](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe02.png)
 
 
-- [x] Στην καρτέλα **Deploy**, συνδέστε την εφαρμογή που μόλις δημιουργήσατε με το repository που μεταφέρατε στο github μέσω **fork**(κάντε την απαραίτητη ρύθμιση στο πεδίο **Connect to GitHub** -> **Search** -> **Connect**).
+
+- [x] Στην καρτέλα **Deploy** στο **Heroku dashboard**, συνδέστε την εφαρμογή που μόλις δημιουργήσατε με το repository που μεταφέρατε στο github μέσω **fork**(κάντε την απαραίτητη ρύθμιση στο πεδίο **Connect to GitHub** -> **Search** -> **Connect**).
 ![herokudeploy1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe05.png)
 - [x] Πατήστε το κουμπί **Deploy Branch** για να ανέβει ο κώδικας από το **github** στην εφαρμογή σας. Αυτή η κίνηση θα πρέπει να γίνεται κάθε φορά που θα αλλάζετε κάτι στο github, προκειμένου να ενημερώνεται η εφαρμογή σας στο Heroku.
 ![herokudeploy2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe06.png)
