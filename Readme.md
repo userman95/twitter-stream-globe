@@ -23,7 +23,8 @@
 - [x] Δημιουργήστε μια νέα εφαρμογή στο [twitter](https://apps.twitter.com/).
 - [x] Θα χρειαστείτε να αξιοποιήσετε την πλατφόρμα [PubNub](https://admin.pubnub.com/) (είναι δωρεάν).
 - [x] Στο αποθετήριο που έχετε αντιγράψει στον λογαριασμό σας (βλ. προηγούμενα βήματα), οι μεταβλητές **TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET**, **TWITTER_ACCESS_TOKEN** και **TWITTER_TOKEN_SECRET** θα πρέπει να αντικατασταθούν με τις τιμές των αντίστοιχων μεταβλητών της εφαρμογής σας στο **twitter** που δημιουργήσατε στο προηγούμενο βήμα και οι μεταβλητές **PUBNUB_PUBLISH_KEY** και **PUBNUB_SUBSCRIBE_KEY** με τις αντίστοιχες τιμές από το **PubNub**.
-**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της εφαρμογής που θα δημιουργήσετε σε επόμενο βήμα στο **Heroku** (**Settings** -> **Config Variables**).
+
+**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της εφαρμογής στο **Heroku** (**Settings** -> **Config Variables**).
 
 **Βήμα 1**
 ![herokuConfigp1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe08.png)
