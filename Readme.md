@@ -18,7 +18,7 @@
 ![forkRepository](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe00.png)
 
 
-Για να τρέξετε την **εφαρμογή**:
+Για να τρέξετε αρχικά την **εφαρμογή**:
 - [x] Δημιουργήστε ένα νέο κλαδί (**branch**) στο αντίγραφο του αποθετηρίου στον λογαριασμό σας.
 - [x] Δημιουργήστε μια νέα εφαρμογή στο [twitter](https://apps.twitter.com/).
 - [x] Θα χρειαστείτε να αξιοποιήσετε την πλατφόρμα [PubNub](https://admin.pubnub.com/) (είναι δωρεάν).
