@@ -36,6 +36,7 @@
 
 
 Όσον αφορά στην πλατφόρμα PubNub, για να βρείτε τις τιμές των 2 μεταβλητών ακολουθήστε τα εξής βήματα:
+
 **Βήμα 1**
 ![pubnub1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe09.png)
 **Βήμα 2**
