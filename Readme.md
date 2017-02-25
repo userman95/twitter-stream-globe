@@ -22,20 +22,15 @@
 - [x] Δημιουργήστε ένα νέο κλαδί (**branch**) στο αντίγραφο του αποθετηρίου στον λογαριασμό σας.
 - [x] Δημιουργήστε μια νέα εφαρμογή στο [twitter](https://apps.twitter.com/).
 - [x] Θα χρειαστείτε να αξιοποιήσετε την πλατφόρμα [PubNub](https://admin.pubnub.com/) (είναι δωρεάν).
-- [x] Στο αποθετήριο που έχετε αντιγράψει στον λογαριασμό σας (βλ. προηγούμενα βήματα), αντικαταστήστε στο αρχείο **tweet-publisher/index.js** τις ετικέτες **TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET**, **TWITTER_ACCESS_TOKEN** και **TWITTER_TOKEN_SECRET** με τις τιμές των αντίστοιχων μεταβλητών της εφαρμογής σας στο **twitter** που δημιουργήσατε στο προηγούμενο βήμα και τις μεταβλητές **PUBNUB_PUBLISH_KEY** και **PUBNUB_SUBSCRIBE_KEY** με τις αντίστοιχες τιμές από το **PubNub**.
-```javascript
-var twitter = TweetPublisher.twitter = new Twit({
-	consumer_key: nconf.get('TWITTER_CONSUMER_KEY'),
-	consumer_secret: nconf.get('TWITTER_CONSUMER_SECRET'),
-	access_token: nconf.get('TWITTER_ACCESS_TOKEN'),
-	access_token_secret: nconf.get('TWITTER_TOKEN_SECRET')
-});
+- [x] Στο αποθετήριο που έχετε αντιγράψει στον λογαριασμό σας (βλ. προηγούμενα βήματα), οι μεταβλητές **TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET**, **TWITTER_ACCESS_TOKEN** και **TWITTER_TOKEN_SECRET** θα πρέπει να αντικατασταθούν με τις τιμές των αντίστοιχων μεταβλητών της εφαρμογής σας στο **twitter** που δημιουργήσατε στο προηγούμενο βήμα και οι μεταβλητές **PUBNUB_PUBLISH_KEY** και **PUBNUB_SUBSCRIBE_KEY** με τις αντίστοιχες τιμές από το **PubNub**.
+**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της εφαρμογής που θα δημιουργήσετε σε επόμενο βήμα στο **Heroku** (**Settings** -> **Config Variables**).
 
-var pubnub = TweetPublisher.pubnub = Pubnub({
-	publish_key: nconf.get('PUBNUB_PUBLISH_KEY'),
-	subscribe_key: nconf.get('PUBNUB_SUBSCRIBE_KEY')
-});
-```
+**Βήμα 1**
+![herokuConfigp1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe08.png)
+**Βήμα 2**
+![herokuConfigp2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe081.jpg)
+
+
 Συγκεκριμένα για την πλατφόρμα PubNub, για να βρείτε τις τιμές των 2 παραπάνω μεταβλητών ακολουθήστε τα εξής βήματα:
 **Βήμα 1**
 ![pubnub1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe09.png)
@@ -45,12 +40,6 @@ var pubnub = TweetPublisher.pubnub = Pubnub({
 - [x] Δημιουργήστε μια νέα εφαρμογή.
 ![herokuapps](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe02.png)
 
-**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι μεταβλητές που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια. Μια καλή λύση θα ήταν να τις αποκρύψετε από τη δημόσια θέα στο **github** μέσω της εφαρμογής που μόλις δημιουργήσατε στο **Heroku** (**Settings** -> **Config Variables**).
-
-**Βήμα 1**
-![herokuConfigp1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe08.png)
-**Βήμα 2**
-![herokuConfigp2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe081.jpg)
 
 - [x] Στην καρτέλα **Deploy**, συνδέστε την εφαρμογή που μόλις δημιουργήσατε με το repository που μεταφέρατε στο github μέσω **fork**(κάντε την απαραίτητη ρύθμιση στο πεδίο **Connect to GitHub** -> **Search** -> **Connect**).
 ![herokudeploy1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe05.png)
