@@ -44,7 +44,7 @@
 
 
 
-- [x] Στην καρτέλα **Deploy** στο **Heroku dashboard**, συνδέστε την εφαρμογή που μόλις δημιουργήσατε με το repository που μεταφέρατε στο github μέσω **fork**(κάντε την απαραίτητη ρύθμιση στο πεδίο **Connect to GitHub** -> **Search** -> **Connect**).
+- [x] Στην καρτέλα **Deploy** στο **Heroku dashboard**, συνδέστε την εφαρμογή που μόλις δημιουργήσατε με το repository που μεταφέρατε στο github μέσω **fork** (κάντε την απαραίτητη ρύθμιση στο πεδίο **Connect to GitHub** -> **Search** -> **Connect**).
 ![herokudeploy1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe05.png)
 - [x] Πατήστε το κουμπί **Deploy Branch** για να ανέβει ο κώδικας από το **github** στην εφαρμογή σας. Αυτή η κίνηση θα πρέπει να γίνεται κάθε φορά που θα αλλάζετε κάτι στο github, προκειμένου να ενημερώνεται η εφαρμογή σας στο Heroku.
 ![herokudeploy2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe06.png)
