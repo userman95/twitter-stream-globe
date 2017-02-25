@@ -18,7 +18,7 @@
 ![forkRepository](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe00.png)
 
 
-Για το **Μέρος Α**:
+Για να τρέξετε την **εφαρμογή**:
 - [x] Δημιουργήστε ένα νέο κλαδί (**branch**) στο αντίγραφο του αποθετηρίου στον λογαριασμό σας.
 - [x] Δημιουργήστε μια νέα εφαρμογή στο [twitter](https://apps.twitter.com/).
 - [x] Θα χρειαστείτε να αξιοποιήσετε την πλατφόρμα [PubNub](https://admin.pubnub.com/) (είναι δωρεάν).
@@ -48,6 +48,8 @@
 - [x] Πατήστε το κουμπί **Deploy Branch** για να ανέβει ο κώδικας από το **github** στην εφαρμογή σας. Αυτή η κίνηση θα πρέπει να γίνεται κάθε φορά που θα αλλάζετε κάτι στο github, προκειμένου να ενημερώνεται η εφαρμογή σας στο Heroku.
 ![herokudeploy2](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe06.png)
 - [x] Πατήστε το κουμπί **Open app** στο Dashboard της εφαρμογής σας στο Heroku και στην καρτέλα που ανοίγει εκτελείται η εφαρμογή σας.
+
+Για το **Μέρος Α**:
 - [x] Εφαρμόστε τις αλλαγές στον κώδικα του κατάλληλου κάθε φορά αρχείου, ανάλογα με το παραδοτέο. Π.χ. για τη διαβάθμιση των συναισθημάτων, τροποποιήστε το αρχείο /public/javascripts/**TweetBeacon.js**.
 
 Για το **Μέρος Β**:
