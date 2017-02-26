@@ -27,7 +27,7 @@
 ![herokuapps](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe02.png)
 - [x] Στο αποθετήριο που έχετε αντιγράψει στον λογαριασμό σας (βλ. προηγούμενα βήματα), οι μεταβλητές-ετικέτες (**KEYS**): **TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET**, **TWITTER_ACCESS_TOKEN** και **TWITTER_TOKEN_SECRET** θα πρέπει να αντικατασταθούν με τις τιμές (**VALUES**) των αντίστοιχων μεταβλητών της εφαρμογής σας στο **twitter** που δημιουργήσατε στο προηγούμενο βήμα και οι **PUBNUB_PUBLISH_KEY** και **PUBNUB_SUBSCRIBE_KEY** με τις αντίστοιχες τιμές από το **PubNub**.
 
-**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι τιμές των μεταβλητών που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια στο **github**. Μια καλή λύση θα ήταν να τις αποκρύψετε καταχωρώντας τις κατευθείαν στην εφαρμογή σας στο **Heroku** (**Settings** -> **Config Variables**).
+**Συμβουλή:** Για λόγους ασφαλείας, καλό θα είναι αυτές οι τιμές των 6 μεταβλητών που περιγράψαμε παραπάνω (**TWITTER_CONSUMER_KEY**, **TWITTER_CONSUMER_SECRET** κ.λπ.) να μην είναι δημόσια στο **github**. Μια καλή λύση θα ήταν να τις αποκρύψετε καταχωρώντας τις κατευθείαν στην εφαρμογή σας στο **Heroku** (**Settings** -> **Config Variables**).
 
 **Βήμα 1**
 ![herokuConfigp1](https://github.com/courses-ionio/projects/blob/master/tweetSentimentStreamGlobe/screenshots/odigiesTwitterSentimentGlobe08.png)
